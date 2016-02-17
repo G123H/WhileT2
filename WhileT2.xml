@@ -174,4 +174,22 @@
       </block>
     </next>
   </block>
+  <block type="sensor_object" id="127" x="-6" y="237">
+    <field name="OBJECT">LEFTFRONT</field>
+  </block>
+  <block type="sensor_object" id="128" x="14" y="277">
+    <field name="OBJECT">RIGHTFRONT</field>
+  </block>
+  <block type="math_number" id="143" x="42" y="357">
+    <field name="NUM">50</field>
+  </block>
+  <block type="math_number" id="144" x="62" y="397">
+    <field name="NUM">50</field>
+  </block>
+  <block type="logic_compare" id="135" inline="true" x="-6" y="464">
+    <field name="OP">LT</field>
+  </block>
+  <block type="logic_compare" id="136" inline="true" x="14" y="504">
+    <field name="OP">LT</field>
+  </block>
 </xml>
